@@ -6,15 +6,22 @@ such as videos and images using passive image analysis techniques and Machine Le
 
 
 **Research Interests**: Joint Multi-modal data understanding
+
                         Computer Vision
+                        
                         Natural Language Processing
+                        
                         Machine/Deep Learning
+                        
                         Image/Video Analysis
+                        
                         Multimedia Forensics
 
 
 **Current Research**  : Joint Representation learning of co-occurring images and text
+                        
                         Story Illustration and Visual Storytelling
+                        
                         Image Captioning and Image retrieval
                         
 
