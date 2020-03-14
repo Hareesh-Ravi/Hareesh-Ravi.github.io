@@ -1,4 +1,8 @@
 theme: jekyll-theme-cayman
 title: Hareesh Ravi
 description: PhD in CS student at [Rutgers University](https://www.cs.rutgers.edu/)
-avatar: "/img/avatar-icon.png"
+avatar: "/img/avatar.png"
+title-img: "/img/title.png"
+navbar-img: "/img/navbar.png"
+footer-img: "/img/footer.png"
+page-img: "/img/page.png"
