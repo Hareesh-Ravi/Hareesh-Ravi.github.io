@@ -6,3 +6,17 @@ title-img: "/img/title.png"
 navbar-img: "/img/navbar.png"
 footer-img: "/img/footer.png"
 page-img: "/img/page.png"
+social-network-links:
+  rss: true
+  email: "hareesh.ravi@cs.rutgers.edu"
+  facebook: HareeshRavi21
+  github: Hareesh-Ravi
+  twitter: Haree21
+  linkedin: rhareesh
+  
+ share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  github: true
+  emmail: true
