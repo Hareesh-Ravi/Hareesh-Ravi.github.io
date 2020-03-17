@@ -1,12 +1,9 @@
-<img align="left" width="200" height="200" src="./img/avatar.png">
-
-<p align=" justify">
+<img align="left" width="190" height="200" src="./img/avatar.png">
 
 ## ABOUT ME
 I am a PhD student in the CS department (since Sep 2016) at the [Intelligent Visual Interfaces](https://ivi.cs.rutgers.edu/) lab in [Rutgers University](https://www.cs.rutgers.edu/) working on Multi-modal A.I., under the supervision of [Dr. Mubbasir Kapadia](https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia) and [Dr. Gerard De Melo](http://gerard.demelo.org/). Particularly, I work on joint understanding of images/videos with abstract and narrative text with applications to story illustration, 
 visual storytelling, image captioning and image retrieval. I previously worked on authenticating multimedia content 
 such as videos and images using passive image analysis techniques and Machine Learning. 
-</p>
 
 ### Research Interests
 - Joint Multi-modal data understanding
