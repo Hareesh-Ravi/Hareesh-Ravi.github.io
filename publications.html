@@ -2,11 +2,114 @@
 layout: default
 title: Hareesh Ravi
 ---
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px 1px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.pdf {
+  border-radius: 25px
+  border-color: #4CAF50;
+  color: green;
+}
+
+.pdf:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.code {
+  border-radius: 25px
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.code:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Gray */
+.bibtex {
+  border-radius: 25px
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.bibtex:hover {
+  background: #e7e7e7;
+}
+</style>
+</head>
+<body>
+<h2>Peer-reviewed Journals</h2>
+<div class="row">
+  <div class="column left" style="background-color:#fff;">
+    <p></p>
+  </div>
+  <div class="column right" style="background-color:#fff;">
+    <div font size="3">
+      <b>Ravi, H.</b>, Subramanyam, A. V., Emmanuel, S. <i>ACE - An Effective Anti-forensic Contrast Enhancement Technique</i>, 
+      in IEEE Signal Processing Letters (IEEE SPL), Feb 2016, 23 (2), pp 212-216 <br>
+    </font></div>
+  <div>
+    <div font size="3">
+      <a href="https://drive.google.com/open?id=0B5F7NyiocdXvRldUUEpPZ01NRGc" target="_blank"><button class="btn pdf">Pdf</button></a>
+      <a href="https://github.com/Hareesh-Ravi/ACE" target="_blank"><button class="btn code">Code</button></a>
+    </font></div>
+  </div>
+</div>
+
+<!--
 <div><font color="#000000" size="3"><span style="line-height:24px"><b>JOURNALS</b></span></font></div>
-<ol><li><span style="background-color:rgb(255,255,255)"><font color="#000000" size="3">Sharma S,. <b>Ravi, H.</b>, Subramanyam, A. V., Emmanuel, S., "<i>Anti-forensics of Median Filtering and Contrast Enhancement</i>", <b>(Accepted)</b> in Journal of Visual Communication and Image Representation, 2019.<br>
+
+<ol><li>
+<span style="background-color:rgb(255,255,255)">
+<font color="#000000" size="3">
+Sharma S,. <b>Ravi, H.</b>, Subramanyam, A. V., Emmanuel, S., "
+<i>Anti-forensics of Median Filtering and Contrast Enhancement</i>", 
+<b>(Accepted)</b> in Journal of Visual Communication and Image Representation, 2019.<br>
 <br>
 </font></span></li>
-<li><font color="#000000" size="3"><b style="line-height:1.5;background-color:transparent">Ravi, H.</b><span style="line-height:1.5;background-color:transparent">, Subramanyam, A. V., Emmanuel, S. “</span><i style="line-height:1.5;background-color:transparent">ACE - An Effective Anti-forensic Contrast Enhancement Technique</i><span style="line-height:1.5;background-color:transparent">”, IEEE Signal Processing Letters (IEEE SPL), Feb 2016, 23 (2), pp 212-216&nbsp;</span><span style="line-height:1.5;background-color:transparent">. [<a href="https://drive.google.com/open?id=0B5F7NyiocdXvRldUUEpPZ01NRGc" target="_blank">PDF Author's version</a>] [<a href="https://github.com/Hareesh-Ravi/ACE" target="_blank">CODE</a>]<br>
+
+<li><font color="#000000" size="3"><b style="line-height:1.5;background-color:transparent">
+Ravi, H.</b><span style="line-height:1.5;background-color:transparent">, Subramanyam, A. V., Emmanuel, S. “</span><i style="line-height:1.5;background-color:transparent">ACE - An Effective Anti-forensic Contrast Enhancement Technique</i><span style="line-height:1.5;background-color:transparent">”, IEEE Signal Processing Letters (IEEE SPL), Feb 2016, 23 (2), pp 212-216&nbsp;</span><span style="line-height:1.5;background-color:transparent">. [<a href="https://drive.google.com/open?id=0B5F7NyiocdXvRldUUEpPZ01NRGc" target="_blank">PDF Author's version</a>] [<a href="https://github.com/Hareesh-Ravi/ACE" target="_blank">CODE</a>]<br>
 <br>
 </span></font></li>
 <li><font color="#000000" size="3"><b style="line-height:1.5;background-color:transparent">Ravi, H.</b><span style="line-height:1.5;background-color:transparent">, Subramanyam, A. V., Emmanuel, S. “</span><i style="line-height:1.5;background-color:transparent">Forensic Analysis of Linear and Non Linear Image Filtering using Quantization Noise</i><span style="line-height:1.5;background-color:transparent">, ACM Transactions on Multimedia Computing Communications and Applications (ACM TOMM),</span><span style="line-height:1.5;background-color:transparent">&nbsp;vol. 12, no. 3, p. 39, 2016.&nbsp;[<a href="https://drive.google.com/open?id=0B5F7NyiocdXvY3BvY2dGdjNMSHc" target="_blank">PDF Author's version</a>]</span><br>
@@ -32,3 +135,4 @@ on Computer Vision and Pattern Recognition (IEEE CVPR), 2018,&nbsp;</span><span 
 </li>
 <li><font color="#000000" size="3"><span style="line-height:1.5;background-color:transparent">Saxena, S., Subramanyam, A. V. and&nbsp;</span><b style="line-height:1.5;background-color:transparent">Ravi, H.</b><span style="line-height:1.5;background-color:transparent">&nbsp;“</span><span style="line-height:1.5;background-color:transparent"><i>Video Inpainting Detection and Localization Using Inconsistencies in Optical Flow</i>”, in Proc. IEEE TENCON, Nov 2016 (<b>Oral</b>).</span></font></li>
 </ol>
+-->
