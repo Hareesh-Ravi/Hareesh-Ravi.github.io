@@ -1,0 +1,104 @@
+---
+layout: default
+title: Hareesh Ravi
+---
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 2px 4px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px 1px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.pdf {
+  border-radius: 50px
+  border-color: #4CAF50;
+  color: green;
+}
+
+.pdf:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.code {
+  border-radius: 50px
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.code:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Gray */
+.bibtex {
+  border-radius: 50px
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.bibtex:hover {
+  background: #e7e7e7;
+}
+</style>
+</head>
+<body>
+<h2>Research Projects</h2>
+<div class="row">
+  <div class="column left" style="background-color:#fff;">
+    img src="/img/cvpr_2018_arch.png" border="0" height="100" width="200" alt="avatar" align="left" style="border: none; float: left; border-radius:0%;"> 
+  </div>
+  <div class="column right" style="background-color:#fff;">
+    <hr>
+    <div font size="2">
+      Story Illustration is the problem of retrieving/generating a sequence of images, 
+      given a natural language story as input. We propose a hierarchical GRU network that learns 
+      a representation for the input story and use it to retrieve an ordered set of images from a dataset. 
+      In its core, the model is designed to explicitly model coherence between sentences in a story 
+      optimized over sequential order embedding based loss function.
+    </font></div>
+  <div>
+  <br>
+    <div font size="2">
+      <a href="http://http://openaccess.thecvf.com/content_cvpr_2018/papers/Ravi_Show_Me_a_CVPR_2018_paper.pdf" target="_blank"><button class="btn pdf">pdf</button></a>
+      <a href="https://github.com/Hareesh-Ravi/Show-Me-A-Story" target="_blank"><button class="btn code">code</button></a>
+      <a href="/bib/showMeAStory_bib.bib" target="_blank"><button class="btn bibtex">bibtex</button></a>
+    </font></div>
+  </div>
+</div>
+
